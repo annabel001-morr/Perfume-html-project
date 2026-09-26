@@ -105,21 +105,28 @@ body {
 }
 
 @media (max-width: 650px) {
-
   .product-card {
-    grid-template-columns: 1fr;
-    max-width: 350px;
-  }
-
-  .product-photo {
-    min-height: 250px;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
   }
 
   .product-info {
-    padding: 25px;
+    padding: 20px 12px;
   }
 
   .product-info h1 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+
+  .cost strong {
+    font-size: 19px;
+  }
+
+  .product-info button {
+    padding: 10px 5px;
   }
 }
